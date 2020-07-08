@@ -4,18 +4,15 @@ paso 3: configurar el puerto serial para una velocidad de 9600 baudios
 paso 4: imprimir un mensaje de bienvenida en el M.S. del P.C.
 paso 5: solicitar el primer numero entero al usuario (imprimir mensaje en el M.S. del P.C.)
 paso 6: esperar ingreso, leerlo y asignarlo a una variable
-paso 7: comprobar si el numero ingresado es menor a 100, si no lo es volver al paso 5, si lo es continuar al siguiente paso
-paso 8: solicitar el segundo numero entero al usuario (imprimir mensaje en el M.S. del P.C.)
-paso 9: esperar ingreso, leerlo y asignarlo a una variable
-paso 10: comprobar si el numero ingresado es menor a 100, si no lo es volver al paso 8, si lo es continuar al siguiente paso
-paso 11: solicitar el tercer numero entero al usuario (imprimir mensaje en el M.S. del P.C.)
-paso 12: esperar ingreso, leerlo y asignarlo a una variable
-paso 13: comprobar si el numero ingresado es menor a 100, si no lo es volver al paso 11, si lo es continuar al siguiente paso
-paso 14: con las tres variables , utilizar estructuras de control de decision para definir el mayor y menor numero de los tres y asignarlos a variables
-paso 15: imprimir un mensaje "el numero menor es" XX 
-paso 16: imprimir un mensaje "el numero mayor es" XX 
-paso 17: imprimir un mensaje "**********************"
-paso 18: volver al paso 4
+paso 7: solicitar el segundo numero entero al usuario (imprimir mensaje en el M.S. del P.C.)
+paso 8: esperar ingreso, leerlo y asignarlo a una variable
+paso 9: solicitar el tercer numero entero al usuario (imprimir mensaje en el M.S. del P.C.)
+paso 10: esperar ingreso, leerlo y asignarlo a una variable
+paso 11: con las tres variables , utilizar estructuras de control de decision para definir el mayor y menor numero de los tres y asignarlos a variables
+paso 12: imprimir un mensaje "el numero menor es" XX 
+paso 13: imprimir un mensaje "el numero mayor es" XX 
+paso 14: imprimir un mensaje "**********************"
+paso 15: volver al paso 4
 
 
 // ayuda: pseudo codigo calcular mayor y menor http://enriquebarrueto1.tripod.com/4.txt
