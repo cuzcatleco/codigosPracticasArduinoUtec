@@ -1,4 +1,4 @@
-paso 1: declarar 3 variables enteras, una para cada numero a solicitar
+paso 1: declarar 2 variables enteras, una para cada numero a solicitar (numero 1 y numero2)
 paso 2: declarar 2 variables para almacenar Mayor y Menor
 paso 3: configurar el puerto serial para una velocidad de 9600 baudios
 paso 4: imprimir un mensaje de bienvenida en el M.S. del P.C.
@@ -6,13 +6,22 @@ paso 5: solicitar el primer numero entero al usuario (imprimir mensaje en el M.S
 paso 6: esperar ingreso, leerlo y asignarlo a una variable
 paso 7: solicitar el segundo numero entero al usuario (imprimir mensaje en el M.S. del P.C.)
 paso 8: esperar ingreso, leerlo y asignarlo a una variable
-paso 9: solicitar el tercer numero entero al usuario (imprimir mensaje en el M.S. del P.C.)
-paso 10: esperar ingreso, leerlo y asignarlo a una variable
-paso 11: con las tres variables , utilizar estructuras de control de decision para definir el mayor y menor numero de los tres y asignarlos a variables
-paso 12: imprimir un mensaje "el numero menor es" XX 
-paso 13: imprimir un mensaje "el numero mayor es" XX 
-paso 14: imprimir un mensaje "**********************"
-paso 15: volver al paso 4
+paso 9: con las 2 variables , utilizar estructuras de control IF de decision para definir el mayor y menor numero de los tres y asignarlos a variables
+paso 9.1: if (numero1 > numero2)
+           {
+              mayor = numero1;
+              menor = numero2:
+           }
+           else
+           {
+              mayor = numero2:
+              menor = numero1;
+           }
+           
+paso 10: imprimir un mensaje "el numero menor es" XX 
+paso 11: imprimir un mensaje "el numero mayor es" XX 
+paso 12: imprimir un mensaje "**********************"
+paso 13: volver al paso 4
 
 --------------
 // ayuda: pseudo codigo calcular mayor y menor http://enriquebarrueto1.tripod.com/4.txt
